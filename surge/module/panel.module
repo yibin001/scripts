@@ -10,6 +10,11 @@ nf_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com
 ytb_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/5ae36a6a5cb5690b1f2bff4aa19c766f/raw/youtube_premium_check.js
 #disney_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/disney_check.js
 
+#机场信息
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=ExFlux&icon=opticaldisc&color=#5AC8FA
+
+
+
 [Panel]
 #SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile, title="启动时长", content="请刷新", update-interval=1
 TrafficStatistics = script-name=TrafficStatistics, title="流量统计", content="请刷新", update-interval=-1
@@ -18,3 +23,5 @@ net-info-panel=title="网络状态",content="请刷新",style=info,script-name=n
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=-1
 ytb_check = script-name=ytb_check, title="YouTube Premium 解锁检测", update-interval=-1
 #disney_check = script-name=disney_check, title=Disney+ 解锁检测, content=请刷新, update-interval=10
+
+Sub_info = script-name=Sub_info,update-interval = -1
