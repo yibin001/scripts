@@ -11,7 +11,7 @@ ytb_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.co
 #disney_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/disney_check.js
 
 #机场信息
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=ExFlux&icon=opticaldisc&color=#5AC8FA
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsub.nfol.xyz%2Flink%2FWzhrWnm5YHV9aJ3u%3Fsub%3D4&reset_day=30&title=ExFlux&icon=opticaldisc&color=#5AC8FA
 
 
 
